@@ -9,8 +9,12 @@ This repo hosts **downloads only**. Xnapper is closed-source; there's no source 
 - **⌘⇧V** — open a floating history panel right near your cursor
 - Captures text copies, image copies, and screenshots (⌘⇧3, ⌘⇧4, ⌘⌃⇧4) into one unified history
 - Click any item to copy it and paste it straight into whatever app you were using
+- Separate **Copy**, **Delete**, and **Pin** buttons on each item
+- Keep up to **100 items**, with **20 per page** and a **More items** dropdown to reach older history
+- Search across all saved items, including older pages
 - Search, pin favorites so they never expire, and exclude specific apps (e.g. password managers) from being recorded
-- Auto-expiring history with a configurable retention window
+- Auto-expiring history with a configurable retention window; pinned items take priority at the 100-item limit
+- If all 100 slots are pinned, unpin or delete an item to make room for new history
 - Everything stays local on your Mac — nothing is uploaded anywhere
 
 ## Download
@@ -18,6 +22,10 @@ This repo hosts **downloads only**. Xnapper is closed-source; there's no source 
 Grab the latest `.dmg` from the [Releases page](https://github.com/yesmemusa/xnapper-app/releases/latest).
 
 **Requirements:** macOS 15.7 or later.
+
+## What’s new in 1.1.0
+
+Copy without pasting, delete individual items, and browse up to 100 saved items in pages of 20. Existing history is reduced to the 100-item limit on first launch, keeping pinned items first and then the newest unpinned entries.
 
 ## Install
 
